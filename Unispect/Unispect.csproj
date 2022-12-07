@@ -78,6 +78,10 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="unispectDMAPlugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Plugins\unispectDMAPlugin.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -126,9 +130,6 @@
     <Compile Include="Enums\Offsets.cs" />
     <Resource Include="unispect.ico" />
     <Resource Include="FodyWeavers.xml" />
-    <Compile Include="Plugins\unispectDMAPlugin\DMAMemoryPlugin.cs" />
-    <Compile Include="Plugins\unispectDMAPlugin\DMAMemoryPluginException.cs" />
-    <Compile Include="Plugins\unispectDMAPlugin\vmmsharp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -164,6 +165,7 @@
     <Content Include="leechcore.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Plugins\unispectDMAPlugin.dll" />
     <Content Include="symsrv.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

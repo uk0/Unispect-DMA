@@ -9,6 +9,7 @@ Unispect/leechcore.dll
 Unispect/FTD3XX.dll
 Unispect/symsrv.dll
 Unispect/dbghelp.dll
+Unispect/Plugins/unispectDMAPlugin.dll
 
 # User-specific files
 *.rsuser
