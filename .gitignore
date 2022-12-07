@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Ignore Binaries
+Unispect/vmm.dll
+Unispect/leechcore.dll
+Unispect/FTD3XX.dll
+Unispect/symsrv.dll
+Unispect/dbghelp.dll
+
 # User-specific files
 *.rsuser
 *.suo

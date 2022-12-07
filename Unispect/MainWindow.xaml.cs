@@ -665,8 +665,9 @@ namespace Unispect
 
             //Log.Add($"Searching for plug-ins in: {pluginPath}");
 
-            // We will add our BasicMemory class here as an option as well.
+            // Add Built-In Plugins
             retList.Add(typeof(BasicMemory));
+            retList.Add(typeof(unispectDMAPlugin.DMAMemoryPlugin));
 
             // Search all sub directories, just in case the user decides to group their library with it's potential additional resources.
             foreach (var fileName in Directory.GetFiles(pluginPath, "*.dll", SearchOption.AllDirectories))
