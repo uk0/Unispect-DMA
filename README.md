@@ -1,6 +1,8 @@
 ## Notes on this fork
 This is largely unchanged, except it contains a Built-In [DMA Plugin](https://github.com/imerzan/unispectDMAPlugin) for MemProcFS (PciLeech).
 
+NOTE: If you use a memory map, it should be named *mmap.txt*
+
 # Unispect
 ![unispect](https://github.com/Razchek/Unispect/blob/master/Gallery/UnispectLogo.png?raw=true)
  
